@@ -1,0 +1,9 @@
+/**index.wxss**/
+.weui-grids{ background: #fff}
+.placeholder{
+    text-align: center;
+   
+}
+.weui-flex__item{ padding: 15px 0 10px 0}
+.code{ width: 60px;height:60px; margin: 0 auto}
+.weui-flex{ background: #0d0d0d;color: #fff}

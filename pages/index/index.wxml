@@ -1,0 +1,73 @@
+<!--index.wxml-->
+   <view class="page">
+    <view class="page__bd page__bd_spacing">
+       <view class="weui-flex">
+          <view class="weui-flex__item">
+             <view class='tc'><image class='code' src='/images/sk_code.png' ></image></view>
+            <view class="placeholder">付款码</view>
+          </view>
+          <view class="weui-flex__item" bindtap='recognizeCode'>
+            <view class='tc'><image  class='code' src='/images/sm_code.png'></image></view>
+            <view class="placeholder">扫码付</view>
+          </view>
+        </view>
+    </view>
+        <view class="weui-grids">
+            <block>
+                <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="/images/icon_tx.png" />
+                    <view class="weui-grid__label">提现</view>
+                </navigator>
+            </block>
+         
+            <block >
+                <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="/images/phone.png" />
+                    <view class="weui-grid__label">话费充值</view>
+                </navigator>
+            </block>
+             <block>
+                <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="/images/icon_zz.png" />
+                    <view class="weui-grid__label">转账</view>
+                </navigator>
+            </block>
+            <block>
+                <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="/images/icon_dh.png" />
+                    <view class="weui-grid__label">兑汇</view>
+                </navigator>
+            </block>
+            <block >
+                <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="/images/icon_lc.png" />
+                    <view class="weui-grid__label">理财</view>
+                </navigator>
+            </block>
+               <block >
+                <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="/images/icon_sh.png" />
+                    <view class="weui-grid__label">生活</view>
+                </navigator>
+            </block>
+             <block>
+                <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="/images/icon_cz.png" />
+                    <view class="weui-grid__label">充值</view>
+                </navigator>
+            </block>
+            <block>
+                <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="/images/icon_hl.png" />
+                    <view class="weui-grid__label">汇率</view>
+                </navigator>
+            </block>
+            <block >
+                <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="/images/icon_zd.png" />
+                    <view class="weui-grid__label">账单查询</view>
+                </navigator>
+            </block>
+        </view>
+    </view>
+
