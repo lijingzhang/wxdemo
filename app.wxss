@@ -16,3 +16,4 @@ font-family:-apple-system-font,Helvetica Neue,Helvetica,sans-serif;
 
 }
 .tc {text-align: center}
+.p15{ padding: 15px;}

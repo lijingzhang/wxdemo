@@ -1,0 +1,2 @@
+/* pages/setNum/setNum.wxss */
+.weui-cell_input{ background: #fff}

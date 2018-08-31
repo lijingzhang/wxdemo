@@ -3,8 +3,10 @@
     <view class="page__bd page__bd_spacing">
        <view class="weui-flex">
           <view class="weui-flex__item">
-             <view class='tc'><image class='code' src='/images/sk_code.png' ></image></view>
-            <view class="placeholder">付款码</view>
+          <navigator url='../code/code'>
+              <view class='tc'><image class='code' src='/images/sk_code.png' ></image></view>
+              <view class="placeholder">付款码</view>
+          </navigator>
           </view>
           <view class="weui-flex__item" bindtap='recognizeCode'>
             <view class='tc'><image  class='code' src='/images/sm_code.png'></image></view>
@@ -14,7 +16,7 @@
     </view>
         <view class="weui-grids">
             <block>
-                <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+                <navigator url="../setNum/setNum" class="weui-grid" hover-class="weui-grid_active">
                     <image class="weui-grid__icon" src="/images/icon_tx.png" />
                     <view class="weui-grid__label">提现</view>
                 </navigator>

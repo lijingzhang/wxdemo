@@ -1,0 +1,11 @@
+<!--pages/code/code.wxml-->
+<view class="page">
+ <!--识别器--> 
+ <view class="qrcode-box p15">
+  <view class="qrcode-container">
+    <image  class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+    <canvas bindtap="previewImg" canvas-id="mycanvas" class="qrcode"/>
+    <navigator class='seta' url='../setNum/setNum'>设置金额</navigator>
+  </view> 
+</view>
+</view>

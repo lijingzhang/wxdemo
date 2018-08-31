@@ -1,0 +1,50 @@
+<!--pages/payment/payment.wxml-->
+
+<view class="page">
+  <view >
+       <form bindsubmit='submitForm'>
+       <view class="weui-cell weui-cell_input">
+              <view class="weui-cell__hd">
+                  <view class="weui-label">收款人</view>
+              </view>
+              <view class="weui-cell__bd">
+                  <input class="weui-input " disabled='disabled' value="{{username}}" name='username' />
+              </view>
+          </view>
+        <view class="weui-cell weui-cell_input">
+              <view class="weui-cell__hd">
+                  <view class="weui-label">付款类型</view>
+              </view>
+              <view class="weui-cell__bd">
+                  <input class="weui-input " disabled='disabled'  value="{{countType}}"  name='countType' />
+              </view>
+          </view>
+          <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">付款金额</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input"  disabled='disabled' value="{{num}}"  name='num' />
+                </view>
+            </view>
+          <view class="weui-btn-area">
+           <button type="default" bindtap="open" type="primary">确定</button>
+           <!-- <modal hidden="{{hiddenmodalput}}" title="付款密码" >  
+              <input type='password' placeholder="请输入密码" name='password' auto-focus/>  
+               <button class="weui-btn" type="primary" form-type='submit'>付款</button>
+            </modal>   -->
+            <!-- 弹出框 -->
+           <view class="modal-box" hidden="{{hiddenmodalput}}" bindtap="open">
+
+              <view class="modal-body">
+
+                <view class="modal-content">
+                   <input type='password' placeholder="请输入密码" name='password' auto-focus/>  
+               <button class="weui-btn" type="primary" form-type='submit'>付款</button>
+              </view>
+              </view>
+            </view>
+        </view>
+         </form>
+  </view>
+</view>
